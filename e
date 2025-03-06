@@ -619,8 +619,8 @@ Tab:CreateToggle({
 
 Tab:CreateSlider({
     Name = "Typing Speed",
-    Range = {0.01, 0.3},
-    Increment = 0.01,
+    Range = {0.001, 0.3},
+    Increment = 0.001,
     CurrentValue = typingdelay,
     Callback = function(value)
         typingdelay = value
